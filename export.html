@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        analye report
+    </title>
+</head>  
+<img id="icon" src="file:///var/task/RedThread.png" alt="icon">
+<p id="date">{{date}}</p><br>
+
+   <center><h3>{{analysis_type}}</h3></center> 
+    
+<hr>
+<center><h6>{{file_name}}</h6></center>
+
+
+{% for items in data %}
+<h4>{{items["heading"]}}</h4>
+{%for item in items["resultItem"]%}
+
+
+        <h5>{{item["tabletype"]}}</h5>
+    {%for messages in item["item"]%}
+
+    
+ <table id="customers" >
+     <br><th>{{messages["color"]}}</th>
+     {% for message in messages["message"]%}
+    <tr><td>{{message}}</td></tr>
+    {% endfor %}
+</table>
+
+{% endfor %}
+{% endfor %}
+{% endfor %}
+</body>
+</html>

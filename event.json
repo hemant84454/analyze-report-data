@@ -1,0 +1,51 @@
+{
+  "user_id": "hemant",
+  "analysis_id": "1655134408919",
+  "analysis_det": {
+    "analysisType": "LMR",
+    "analysisSubtype": "MV0",
+    "projectCodeSA": "ELISA",
+    "projectCodeMV": null,
+    "regressionModel": "4PL",
+    "lloq": null,
+    "uloq": null,
+    "re_type": true,
+    "re_value": null,
+    "lts80_dialog": "23",
+    "lts20_dialog": null,
+    "extraction_dialog": null,
+    "benchtop_dialog": "25",
+    "freeze_thaw_dialog": "5",
+    "multipleAnalytes": "False",
+    "first_patient_dialog": null,
+    "template": "PPD",
+    "sampleMatrix": "Serum",
+    "analysisSubtype_ADA": null,
+    "antiCoagulant": "",
+    "species": "Rat",
+    "samplePrep": null,
+    "sampleDate": "",
+    "analyteNames": [
+      "Polyethylene Glycol (PEG)"
+    ],
+    "userId": "hemant",
+    "analysisId": "1655134408919",
+    "analytes": {
+      "xlsx": [],
+      "docx": [
+        [
+          "hemant/us-east-2:1d15e41d-62c9-4da2-aec1-0d461799aafb/1655134408919/Polyethylene Glycol (PEG)/Report/rqgc2 pk validation report_Test 5.docx",
+          "/tmp/rqgc2 pk validation report_Test 5.docx",
+          "Method Validation Report"
+        ]
+      ],
+      "pdf": []
+    },
+    "analysisStatus": "TableSelected"
+  },
+  "file_type": "docx",
+  "AnalysisType": "LMR",
+  "bucket_name": "dev-redthread-upload",
+  "table_name": "dev-redthread",
+  "dash_table": "dev-redthread-Dash"
+}
